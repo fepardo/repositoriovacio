@@ -1,0 +1,23 @@
+.titulo {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em; 
+    color: #35b3fd; 
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  .color-change {
+    animation: colorChange 1.5s infinite; /* Aplica la animación */
+  }

@@ -25,3 +25,16 @@
 #container a {
   text-decoration: none;
 }
+
+.titulo {
+  font-family: 'Pacifico', cursive;
+  font-size: 1,5em; 
+  color: #35b3fd; 
+}
+
+
+ion-content {
+  --background: url('../../assets/icon/puntos.png') no-repeat center center fixed;
+  background-size: auto;
+  opacity: 0.9; /* Añade esta línea para establecer la opacidad al 50% */
+}
